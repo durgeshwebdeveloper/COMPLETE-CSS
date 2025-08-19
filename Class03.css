@@ -1,0 +1,69 @@
+/* =>Formatting Fonts and Text:style,family,align,decoration,spacing
+   =>Working with colors
+      =>Types of Color assignment
+      =>Text and Background color
+      =>Linear Gradient */
+/*1.Create a  paragrpah with different font styles.*/
+.italic{font-style: italic;}
+.bold{font-weight: bold;}
+.underline{text-decoration: underline;}
+/*Output:Paragraphs demonstrating italic,bold and underlined text styles.*/
+
+/*2.Create a heading with a specific font-family.*/
+#arial{font-family:'Arial',sans-serif;}
+/*Output: A heading styled with the Arial font family.*/
+
+/*3.Create a paragraph with text alignment set to center.*/
+#center{ text-align: center;}
+/*Output:A centered paragraph below the heading.*/
+
+/*4.Create a text with different text decoration styles.*/
+.line-through{ text-decoration: line-through;}
+.underline{text-decoration: underline;}
+/*Output:Text with a line-through and underlined text decorations.*/
+
+/*5.Create a paragraph with letter spacing and line height adjustments.*/
+#spacing{letter-spacing: 2px; line-height: 1.5;}
+/*Output:A paragraph with adjusted letter spacing and line height.*/
+
+/*6.Create a page with a specific text color.*/
+#color{color:blue;}
+/*Output: A paragraph with blue text color.*/
+
+/*7.Create a page with a specific background color.*/
+body{background-color: lightgrey;}
+/*Output:A page with a light grey background color.*/
+
+/*8.Create a page with both text and background colors.*/
+body{background-color: black;}
+#para{color:white;}
+/*Output:White text on a black background*/
+
+/*9.Create a gradient background using linear gradient.*/
+body{background: linear-gradient(to right,red,yellow);}
+/*Output: A page with a gradient background transitioning from red to yellow.*/
+
+/*10.Create a paragraph with a shadow effect on the text.*/
+#shadow{text-shadow: 2px,2px,4px grey;}
+/*Output: A paragraph where the text has shadow effect.*/
+
+/*11.Creating a heading with a font size adjustment.*/
+#large{font-size: 36px;}
+/*Output: A large heading with increased font size.*/
+
+/*12.Create a form with input fields stled with colors.*/
+input[type="trext"]{background-color: lightyellow;color: black;}
+input[type="submit"]{background-color: green; color: white;}
+/*Output: A form with a text input field with a yellow background and a green submit button.*/
+
+/*13.Create a box with a solid border and text inside.*/
+.box{border: 2px solid blue; padding:20px; width: 200px;}
+/*Output: A box with a blue solid border and some text inside.*/
+
+/*14.Create a linear gradient with three colors.*/
+body{background: linear-gradient(to right,red, blue, green);}
+/*Output: A page with a gradient background transitioning from red to blue to green.*/
+
+/*15.Create a page that uses different font families for headings and paragraphs.*/
+#san{font-family: 'Arial',sans-serif;}
+#new{font-family: 'Courier New',monospace;}

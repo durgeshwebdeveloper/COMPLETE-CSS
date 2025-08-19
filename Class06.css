@@ -1,0 +1,65 @@
+/* =>Setting Width and Height
+=>Box-Shadow and Text Shadow */
+
+/* Setting Width and Height */
+/*1.How do you set the width and height of an HTML element in pixel?*/
+/* =>Use the width and height properties with pixel values. */
+.element{width: 200px;height: 100px;}
+
+/*2.How do you set the width and height of an HTML element as a percentage of its parent container?*/
+/* =>Use the width and height properties with percentage values.*/
+.element{width: 50%;height: 50%;}
+
+/*3.How do you set the width and Height of an HTML element to fill its parent container?*/
+/* =>Use the width and height properties with the value 100%.*/
+.element{width: 100%;height: 100%;}
+
+/*4.How do you set the width and height of an HTML element to its intrinsic dimensions(based on the content)?*/
+/* =>Use the width and height properties with the value auto. */
+.element{width: auto;height: auto;}
+
+/* 5.How do you set the widht and height of an HTML element to its minimum content width and height? */
+/*  Use the min-width and min-height properties.*/
+.element{min-width:200px;min-height: 100px;}
+
+/* Box Shadow */
+/*6.How do you add a simple box shadow to an HTML element?*/
+/*=>Use the box shadow property with the values inset,offset-x,offset-y,blur-radius,spread-radius,and color.*/
+.element{box-shadow: 0px 5px 0px #888888;}
+
+/*7.How do you create a multiple-layered box shadow?*/
+/*=>Separate multiple shadows with commas within the box shadow property?*/
+.element{box-shadow: 0px 0px 5px #888888,0px 0px 10px 0px #000000;}
+
+/*8.How do you create an inset box shadow?*/
+/*=>Use the inset keyword in the box-shadow property.*/
+.element{box-shadow: inset 0px 0px 5px 0px #888888;}
+
+/*9.How do you adjust  the opacity of a box shadow?  */
+/*=>Use the opacity property on the element with the box shadow.*/
+.element{box-shadow: 0px 0px 5px 0px #888888; opacity: 0,5;}
+
+/*10.How do you remove a box shadow from an HTML element?*/
+/*=>Set the box-shadow property to none.*/
+.element{box-shadow: none;}
+
+/* Text Shadow */
+/* 11.How do you add a simple text shadow to an HTML element?*/
+/* =>Use the text-shadow property with the values offset-x,offset-y,blur-radius,and color */
+.element{text-shadow: 1px 1px 2px #888888;}
+
+/*12.How do you create a multiple-layered text shadow?*/
+/* =>Separate multiple shadows with commas within the text-shadow. */
+.element{text-shadow: 1 px 1px 2px #888888,2px 2px 4px #000000;}
+
+/*13.How do you adjust the opacity of a text shadow?*/
+/* =>Use the opacity property on the element with the text shadow. */
+.element{text-shadow: 1px 1px 2px #888888;}
+
+/* 14.How do  you remove a text shadow from an HTML  element? */
+/* =>Set the text-shadow property to none. */
+.element{text-shadow: none;}
+
+/*15.How do you create a text shadow with a specific angle?*/
+/* =>Use the text-shadow property with the vlaues oddet-x,offset-y,blur-radius,color, and angle group.*/
+.element{text-shadow: 2px 2px 4px 45deg #888888;}

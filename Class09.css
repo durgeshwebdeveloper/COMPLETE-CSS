@@ -1,0 +1,52 @@
+/* =>CSS Flex
+   =>Flex-Direction
+   =>Justify content
+   =>Align items
+   =>Flex-wrap
+   =>Flex-flow
+   =>Order
+   =>Align-Self */
+
+/*1.Create a simple flex conatiner with three items.*/
+.container{display: flex;background-color: lightgrey;}
+.item{flex: 1;padding: 0cap20px;margin: 10px;background-color: lightblue;text-align: center;}
+/*Output:A horizontal row of three equally sized items.*/
+
+/*2.Change the flex-direction to column.*/
+.container1{display: flex;flex-direction: column;background-color: lightgrey;}
+.item1{padding: 20px;margin: 10px;background-color: lightgreen;text-align: center;}
+/*Output:A vertical stack of three items.*/
+
+/*3.Justify content to space between items.*/
+.container2{display: flex;justify-content: space-between;background-color: lightgrey;}
+.item2{padding: 20px;margin: 10px;background-color: lightcoral;text-align: center;}
+/*Output: Items spaced evenly with the first item at the start and last item at the end of container.*/
+
+/*4.Align item to the center of the conatiner.*/
+.container3{display: flex;align-items: center;height: 200px;background-color: lightgrey;}
+.item3{padding: 20px;margin: 10px;background-color: lightblue;text-align: center;}
+/*Output:Items vertically centered within the container.*/
+
+/*5,Use flex-wrap to allow items to wrap onto multiple lines.*/
+.container4{display: flex;flex-wrap:wrap;background-color: lightgreen;text-align: center;}
+/*Output:Item wrap to the next line if they exceed the widht of the contanier.*/
+
+/*6.Set flex-wrap to a combination of flex-direction and flex-wrap.*/
+.container5{display: flex;flex-flow: row wrap;background-color: lightgrey;}
+.item5{flex: 11150px;padding: 20px;margin: 10px;background-color: lightcoral;text-align: center;}
+/*Output:Items flow in a row and wrap to the next line when they exceed the width of the container.*/
+
+/* 7.Change the order of items using the order property. */
+.container6{display: flex;background-color: lightgrey;}
+.item6{padding: 20px;margin: 10px;border-color: lightblue;text-align: center;}
+.item7{order: 2;}  
+.item8{order: 1;}
+.item9{order: 3;}
+/*Output: Items displayed in the order efined by thier 'order properties.*/
+
+/*8.Align  a specific item using the align-self property.*/
+.container7{display: flex;align-items: flex-start;height: 200px;background-color: lightgrey;}
+.item10{padding: 20px;margin: 10px;background-color: lightcoral;text-align: center;}
+.item11{align-items: center;}
+/*Output:Item 11 is centered while other items align at the top of the container.*/
+

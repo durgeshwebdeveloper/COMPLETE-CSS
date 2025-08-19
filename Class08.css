@@ -1,0 +1,47 @@
+/* =>Working with Transform
+   =>Woorking with Transiton
+   =>Working with Animation and Keyframes */
+
+/*.Working with Pseudo Classes.*/
+/*1.How do you translate an element horizontally and vertically? */
+/* =>Use the translate() function. */
+.element{transform: translate(50px,100px);}
+
+/*2.How do you rotate an element by 45degrees?*/
+/* =>Use the rotate() function */
+.element{transform: rotate(45deg);}
+
+/*3.How do you scale an element to twice its size?*/
+/* =>Use the scale() function */
+.element{transform: scale(2);}
+
+/*4.How do you skew an element horizontally by 20 degrees?*/
+/* =>use th skew() function */
+.element{transform: skew(20deg);}
+
+/*5.How do you create a smooth transition for an element's background-color?*/
+/* =>use the transition property. */
+.element{transition: background-color 0.5s ease;}
+
+/*6.How do you delay the start of a transiton by 1 second?*/
+/* =>use the transition-delay property. */
+.element{transition: background-color 0.05s ease 1s;}
+
+/*7.How do you create a simple animation using keyframes?*/
+@keyframes myAnimaton{
+from{transform: translate(X0);}
+to{transform: translate(200px);}
+}
+.element{animation:myAnimation 2s   linear;}
+
+/*8.How do you create an infinite animation loop?*/
+/* =>Use the infinite keyword in the animation-iteration-count property */
+.element{animation: myAnimation 2s linear infinite;}
+
+/*9.How do you style an element when it is hovered over?*/
+/* =>Use the :hover pseudo-class */
+.element{background-color: lightblue;}
+
+/*10How do you style the first child of an element?*/
+/* =>Use the :first-child pseudo-class. */
+.container:first-child{color: red;}

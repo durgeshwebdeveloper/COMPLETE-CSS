@@ -1,0 +1,75 @@
+/*=>Understanding the structure and Rules
+  =>Understanding div and span
+  =>Types of CSS: Inline,Internal , & External
+  =>Adding an External CSS file to the Document
+  =>CSS Selectors */
+  
+/*1.What are the basic components of a CSS rule?  */
+/* => A CSS rule consists of a rule seletor, a declaration block , and a property-value pair.*/
+h1{
+    color: blue;
+    font-size: 24px;
+}
+
+/*2.How do you comment in CSS?*/
+/* =>Use "double-slash and aesticks inside it" for multi-line comments or // for single-line comment.*/
+/* This is a multi-line comment.*/
+/* This is a single-line comment */
+
+/*3.What is the differernce between <div> and <span> elements?*/
+/*=><div>is a block-level element, used to create containers of section.<span> is an inline-level element, 
+used to style specific parts within a block of.*/
+
+/*4.How do you apply CSS Styles inline?*/
+/*=>Use the style attribute within the HMTL element.*/
+
+/*5. How do you apply CSS styles internally within an HTML  documnet?*/
+/*=>Place the CSS rules within a <style> tag in the <head> section.*/
+
+/*6.How do you apply CSS styles externally using a separate CSS file?*/
+/*=>Link the CSS file using the <link> tag in the <head> section.*/
+
+/*7. Create a basic page and link an external CSS file named style.css.*/
+h1{
+    color:blue;
+    font-size: 36px;
+}
+p{
+    color:red;
+}
+
+/*8.How do you select elements with a specific class?*/
+/*=>use a dot followed by the class name.*/
+.my-class{
+    font-weight: bold;
+}
+
+/*9.How do you select an element with a specific ID?*/
+/*=>Use a hash followeed by  the ID name.*/
+#my-id{
+    background-color: yellow;
+}
+
+/*10. How do you select elements based on their attributes?*/
+/*=>Use selectors like [attribute],[attribute-"value"],[attribute^="value"], etc.*/
+a[href^="http://"]{
+    color: blue;
+}
+
+/*11.How do you select elements based on their psuedo-classes?*/
+/*=>Use psuedo-classes like => :hover,:active,:focus,:link,:visited,etc.*/
+a:hover{
+    text-decoration: underline;
+}
+
+/*14.How do you select elements based on their psuedo-elements?*/
+/*=>Use pseudo-elements like=> ::before and ::after*/
+p::before{
+    content: ">>";
+}
+
+/*15. how do you combine selectors to create more specific rules?*/
+/*=>use spaces to combine selectors or use the +,> and ~ operators for adjacent,child,and sibling selectors.*/
+p,.my-class{
+    color:green;
+}

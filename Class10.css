@@ -1,0 +1,44 @@
+/* =>Grid Layout
+   =>Grid - Direction
+   =>Grid - Justify - Content
+   =>Grid - Align -Content */
+
+/*1.Create a simple grid layout with three columns.*/
+.grid-container{grid-template-columns: repeat(3,1fr);gap: 10px;background-color: lightgrey;padding: 10px;}
+.grid-item{background-color: lightblue;padding: 20px;text-align: center;}
+/*Output: A grid layout with three columns containing three items.*/
+
+/*2.Change the grid-direction to a single column.*/
+.grid-container1{display: grid;grid-template-columns: 1fr;gap: 10px;background-color: lightgrey;padding: 10px;}
+.grid-item1{background-color: lightgreen;padding: 20px;text-align: center;}
+/*Output: A vertical stack of three items in a single column.*/
+
+/* 3.Justify grid items to the start of the grid container.*/
+.grid-container2{display: grid;grid-template-columns: repeat(3,1fr);justify-content: start;gap: 10px;background-color: lightgrey;padding:10px}
+.grid-item2{background-color: lightcoral;padding: 20px;text-align: center;}
+/*Output:Items aligned to the start of the grid container.*/
+
+/*4.Create grid items within the container.*/
+.grid-container3{display: grid;grid-template-columns:repeat(3,1fr);justify-content: center;gap: 10px;background-color: lightgrey;padding: 10px;}
+.grid-item3{background-color: lightblue;padding: 20px;text-align: center;}
+/*Output:Grid items centered horizontally in the container.*/
+
+/*5.Align grid items to  the end of the  grid container.*/
+.grid-container4{display: grid;grid-template-columns: repeat(3,1fr);justify-content: end;gap: 10px;background-color: lightgrey;padding: 10px;}
+.grid-item4{background-color: lightcoral;padding: 20px;text-align: center;}
+/*Output:Grid Items aligned to the end of the grid container.*/
+
+/*6.Align items at the center vertically.*/
+.grid-container5{display: grid;grid-template-columns: repeat(3,1fr);align-content: center;height: 200px;gap: 10px;background-color: lightgrey;}
+.grid-item5{background-color: lightgreen;padding: 20px;text-align: center;}
+/*Output:Grid items centered vertically within the container.*/
+
+/*7.Use grid to create space between items.*/
+.grid-container6{display: grid;grid-template-columns: repeat(3,1fr);gap: 20px;background-color: lightgrey;padding: 10px;}
+.grid-item6{background-color: lightblue;padding: 20px;text-align: center;}
+/*Output:A grid layout with 20px space between the items.*/
+
+/*8.Create a grid with different column sizes using grid-template-columns.*/
+.grid-container7{display: grid;grid-template-columns: 2fr 1fr 1fr;gap: 10px;background-color: lightgrey;padding: 10px;}
+.grid-item7{background-color: lightcoral;padding: 20px;text-align: center;}
+/*Output:A grid with the first column being twice the width of the other two columns.*/

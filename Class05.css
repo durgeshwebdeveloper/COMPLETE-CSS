@@ -1,0 +1,28 @@
+/* =>Units of Measurement
+=>Setting Padding and Margin
+=>Setting Borders */
+
+/*1.Create a box with padding using different units of measurement.*/
+.box{width: 300px;height: 150px;background-color: lightblue; padding: 20px; border: 2px solid blue;}    
+.box1{width: 300px;height: 150px;background-color: lightgreen;padding: 10%; border: 2px solid green;}
+/*Output:Two boxes with different padding styles:one with '20px' and padding and the other with '10%' padding. */
+
+/*2.Create a box with margin set in different usints.*/
+.box2{width: 200px; height: 100px;background-color: lightcoral;margin: 30px;border: 2px solid red;}
+.box3{width: 200px; height: 100px; background-color: lightgoldenrodyellow; margin: 5%; border: 2px solid orange;}
+/*Output:Twp boxes with different margin styles, one with '30px' margin and the other with '5%'margin.*/
+
+/*3.Create a box with various borders styles and widths.*/
+.solid-border{width: 250px;height: 100px;border: 5px solid blue; background-color: lightblue; margin: 10px;padding: 10px;}
+.dashed-border{width: 250px;height: 100px;border: 3px dashed green; background-color: lightgreen; margin: 10px; padding: 10px;}
+.dotted-border{width: 250px; height: 100px;border: 2px dotted red; margin: 10px; padding: 10px; background-color: lightcoral;}
+/*Output: Three boxes with different border styles: solid,dashed,and dotted.*/
+
+/* 4.Create a layout using padding and margin for better spacing.*/
+.container{padding: 20px;background-color: lightgrey;}
+.box4{width: 200px;height: 100px;margin: 15px;padding: 10px;border: 2px solid black;background-color: lightyellow;}
+/*Output: A container with three boxes spaced nicely with margin and padding.*/
+
+/*5.Create a box uisng shorthand for margin and padding.*/
+.box5{width: 250px; height: 120px;margin: 10px 20px 15px 5px; padding:5px 10px 15px 20px;border: 2px solid blue; background-color: lightblue;}
+/*Output:A box demonstrating the use of shorthand for margin and padding,showing different spacing on eachside.  */

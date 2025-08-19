@@ -1,0 +1,26 @@
+/* =>Working with float and clear?*/
+/* =>Working with static,relative,absolute and fixed position. */
+
+/*1.Create a tw0-column layout using float and clear.  */
+.container{width: 600px;}
+.column-left{float: left;width: 300px;padding: 20px;}
+.column-right{clear: left;}
+
+/*2.Creat a element that can be positioned uisng relative positioning.*/
+.container1{position: relative;width: 400px;height: 300px;border: 1px solid black;}
+.floating-element{position: relative;top: 50px;left: 100px;width: 200px;height:100px;background-color: lightblue;}
+
+/*3.Create an overlay element using absolute positioning.*/
+.container2{position: relative;width: 400px;height: 300px;border: 1px solid black;}
+.overlay{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);}
+
+/*4.Create a fixed navigation bar using fixed positioning.*/
+.navbar{position: fixed;top: 0;left: 0;width: 100%;background-color: #f0f0f0;padding: 10px;}
+
+/*5.How can you create a modal window using absolute positioning?*/
+.modal{display: none;position: fixed;top: 0;left: 0;width: 100%; height: 100%;background-color: rgba(0,0,0,0.5);}
+.modal-content{position: absolute;top: 50%;left: 50%; transform: translate(-50%,-50%);background-color: #fff;padding: 20px;}
+
+/*6.How can you create a sticky header using fixed positioning?*/
+.header{position: fixed;top: 0;left: 0;width: 100%;background-color: #f0f0f0;padding: 10px;}
+

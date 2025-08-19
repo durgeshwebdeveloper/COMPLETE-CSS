@@ -1,0 +1,95 @@
+/*=>Background-image*/
+/*=>Background-color*/
+/*=>Background-size*/
+/*=>Background-Position*/
+
+/*1. How do you set a background image for an HTML element?*/
+.element{
+    background-image: url("image.jpg");
+}
+
+/*2.How do you repeat a background image horizontally?*/
+/*=>Use the background-repeat property with the value repeat-x.*/
+.element{
+    background-repeat: repeat-x;
+}
+
+/*3.How do you repeat a background image vertically?*/
+/*=>Use the background-repeat property with the value repeat-y*/
+.element{
+    background-repeat: repeat-y;
+}
+/*4.How do you tile a background image in both directions?*/
+/*=>Use the background-repeat property with the value repeat.*/
+.element{
+    background-repeat: repeat;
+}
+
+/*5.How do you prevent a background image from repeating?*/
+/*=>Use the background-repeat property with the value no-repeat.*/
+.element{
+    background-repeat: no-repeat;
+}
+
+/*6.How do you set a background color for an HTML element?*/
+/*=>Use the background-color property and specify the color value(e.g.,hexadecimal,RGB,HSL).*/
+.element{
+    background-color: #FF0000;
+}
+
+/*7.How do you set a transparent background color?*/
+/*=>Use the transparent keyword as the value for background-colo.*/
+.element{
+    background-color: transparent;
+}
+
+/*8.How do you set the size of a background image to fit the container?*/
+/*Use the background-size property with the value cover.*/
+.element{
+    background-size: cover;
+}
+
+/*9.How do you set the size of a background image to fill the container,potentially cropping or stretching the image?*/
+/*Use the background-size property with the value containe.*/
+.element{
+    background-size: contain;
+}
+
+/*10. How do you set the size of a background image to a specific width and height?*/
+/*=>Use the background-size property with pixel values.*/
+.element{
+    background-size: 200px 100px;
+}
+
+/*11.How do you position a background image in the top-left corner of an element?*/
+/*=>Use the background-position property with the value top left.*/
+.element{
+    background-position: top left;
+}
+
+/*12.How do you position a background image in the center of an element?*/
+/*=>Use the background-position property with the value center.*/
+.element{
+    background-position: center;
+}
+
+/*13.How do you position a background image at the bottom right corner of an element?*/
+/*=>Use the background-position property with the value bottom right.*/
+.element{
+    background-position: bottom right;
+}
+
+/*14.How do you position image at a specific offset from the top and left of an element?*/
+/*=>Use the background-position with pixel values.*/
+.element{
+    background-position: 50px 100px;
+}
+
+/*15. How do you position a background image using percentages?*/
+/*=>Use the background-position property with percentage values.*/
+.element{
+    background-position: 50% 25%;
+}
+
+/*NOTE: The output for these examples will depend on the specific image and element dimensios.
+ You can experiment with different values to achieve the desired visual effects.*/
